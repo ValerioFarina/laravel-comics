@@ -39,5 +39,17 @@ main {
                 padding: 20px 0;
             }
         }
+
+        .cta {
+            padding-bottom: 15px;
+            text-align: center;
+
+            button {
+                padding: 8px 50px;
+                color: white;
+                background-color: $brand-primary;
+                font-weight: 700;
+            }
+        }
     }
 }

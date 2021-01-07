@@ -30,6 +30,12 @@
                     </div>
                 @endforeach
             </div>
+
+            <div class="cta">
+                <button class="upper-case">
+                    load more
+                </button>
+            </div>
         </div>
     </div>
 @endsection

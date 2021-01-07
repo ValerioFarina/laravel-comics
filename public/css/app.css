@@ -115,3 +115,13 @@ main .container-comics .card .thumb img {
 main .container-comics .card .series {
   padding: 20px 0;
 }
+main .container-comics .cta {
+  padding-bottom: 15px;
+  text-align: center;
+}
+main .container-comics .cta button {
+  padding: 8px 50px;
+  color: white;
+  background-color: #0282f9;
+  font-weight: 700;
+}
