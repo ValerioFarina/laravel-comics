@@ -32,57 +32,49 @@ a {
 header li {
   display: inline-block;
 }
-
 header #header-top {
   padding: 5px 0;
   font-size: 13px;
   background-color: #0282f9;
 }
-
 header #header-top ul {
   text-align: right;
 }
-
 header #header-top ul li:first-child {
   margin-right: 30px;
 }
-
 header #header-top ul li a {
   color: white;
 }
-
 header #header-bottom .logo {
   padding: 20px 0;
 }
-
 header #header-bottom .logo img {
   height: 80px;
 }
-
-header #header-bottom .menu ul,
-header #header-bottom .menu li {
+header #header-bottom ul {
+  height: 124px;
+}
+header #header-bottom ul li {
   height: 100%;
   line-height: 124px;
-}
-
-header #header-bottom .menu li {
   margin: 0 20px;
 }
-
-header #header-bottom .menu li:hover {
+header #header-bottom ul li:hover {
   border-bottom: 5px solid #0282f9;
 }
-
-header #header-bottom .menu li:hover a {
+header #header-bottom ul li:hover a {
   color: #0282f9;
 }
-
-header #header-bottom .menu li:last-child a span {
+header #header-bottom ul li:last-child a span {
   color: #0282f9;
 }
-
-header #header-bottom .menu a {
+header #header-bottom ul li a {
   color: black;
   font-weight: 700;
 }
 
+.jumbotron {
+  padding: 200px 0;
+  background-image: url("../images/jumbotron.jpg");
+}
