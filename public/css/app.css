@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.upper-case {
+  text-transform: uppercase;
+}
+
+#header-top {
+  padding: 5px 0;
+  font-size: 13px;
+  background-color: #0282f9;
+}
+
+#header-top ul {
+  text-align: right;
+}
+
+#header-top ul li {
+  display: inline-block;
+}
+
+#header-top ul li:first-child {
+  margin-right: 30px;
+}
+
+#header-top ul li a {
+  color: white;
+}
+
