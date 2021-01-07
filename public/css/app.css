@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: "Roboto", sans-serif;
+}
+
 a {
   text-decoration: none;
 }
@@ -13,29 +17,72 @@ a {
   margin: 0 auto;
 }
 
+.d-flex {
+  display: flex;
+}
+
+.justify-content-between {
+  justify-content: space-between;
+}
+
 .upper-case {
   text-transform: uppercase;
 }
 
-#header-top {
+header li {
+  display: inline-block;
+}
+
+header #header-top {
   padding: 5px 0;
   font-size: 13px;
   background-color: #0282f9;
 }
 
-#header-top ul {
+header #header-top ul {
   text-align: right;
 }
 
-#header-top ul li {
-  display: inline-block;
-}
-
-#header-top ul li:first-child {
+header #header-top ul li:first-child {
   margin-right: 30px;
 }
 
-#header-top ul li a {
+header #header-top ul li a {
   color: white;
+}
+
+header #header-bottom .logo {
+  padding: 20px 0;
+}
+
+header #header-bottom .logo img {
+  height: 80px;
+}
+
+header #header-bottom .menu ul,
+header #header-bottom .menu li {
+  height: 100%;
+  line-height: 124px;
+}
+
+header #header-bottom .menu li {
+  margin: 0 20px;
+}
+
+header #header-bottom .menu li:hover {
+  border-bottom: 5px solid #0282f9;
+}
+
+header #header-bottom .menu li:hover a {
+  color: #0282f9;
+}
+
+header #header-bottom .menu li:last-child a span {
+  color: #0282f9;
+}
+
+header #header-bottom .menu a {
+  color: black;
+  font-weight: 700;
 }
 

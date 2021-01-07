@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
 a {
     text-decoration: none;
 }
@@ -11,6 +15,14 @@ a {
 .container {
     max-width: 1280px;
     margin: 0 auto;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.justify-content-between {
+    justify-content: space-between;
 }
 
 .upper-case {

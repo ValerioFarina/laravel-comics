@@ -1,21 +1,64 @@
-#header-top {
-    padding: 5px 0;
-    font-size: 13px;
-    background-color: $brand-primary;
+header {
+    li {
+        display: inline-block;
+    }
 
-    ul {
-        text-align: right;
+    #header-top {
+        padding: 5px 0;
+        font-size: 13px;
+        background-color: $brand-primary;
 
-        li {
-            display: inline-block;
+        ul {
+            text-align: right;
 
-            &:first-child {
-                margin-right: 30px;
-            }
+            li {
+                &:first-child {
+                    margin-right: 30px;
+                }
 
-            a {
-                color: white;
+                a {
+                    color: white;
+                }
             }
         }
     }
+
+    #header-bottom {
+        .logo {
+            padding: 20px 0;
+
+            img {
+                height: 80px;
+            }
+        }
+
+        .menu {
+            ul, li{
+                height: 100%;
+                line-height: 124px;
+            }
+
+            li {
+                margin: 0 20px;
+
+                &:hover {
+                    border-bottom: 5px solid $brand-primary;
+                }
+
+                &:hover a {
+                    color: $brand-primary;
+                }
+
+                &:last-child a span {
+                    color: $brand-primary;
+                }
+            }
+
+            a {
+                color: black;
+                font-weight: 700;
+            }
+        }
+    }
+
 }
