@@ -9,6 +9,12 @@
 
     <div class="container-comics">
         <div class="container">
+            <h1>
+                <span class="upper-case">
+                    current series
+                </span>
+            </h1>
+
             <div class="d-flex wrap justify-content-evenly">
                 @foreach ($comic_series as $item)
                     <div class="card">

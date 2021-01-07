@@ -89,9 +89,15 @@ main .jumbotron {
 main .container-comics {
   background-color: black;
 }
+main .container-comics h1 span {
+  display: inline-block;
+  padding: 10px 20px;
+  transform: translateY(-50%);
+  background-color: #0282f9;
+}
 main .container-comics .card {
   width: 183px;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
 main .container-comics .card .thumb {
   width: 175px;
