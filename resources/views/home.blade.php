@@ -6,4 +6,10 @@
     <div class="jumbotron">
 
     </div>
+
+    <div class="container-comics">
+        <div class="container">
+            {{ dd($comics) }}
+        </div>
+    </div>
 @endsection
