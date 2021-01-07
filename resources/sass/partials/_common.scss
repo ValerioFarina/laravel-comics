@@ -19,10 +19,18 @@ a {
 
 .d-flex {
     display: flex;
-}
 
-.justify-content-between {
-    justify-content: space-between;
+    &.wrap {
+        flex-wrap: wrap;
+    }
+
+    &.justify-content-between {
+        justify-content: space-between;
+    }
+
+    &.justify-content-evenly {
+        justify-content: space-evenly;
+    }
 }
 
 .upper-case {

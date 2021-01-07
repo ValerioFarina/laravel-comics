@@ -1,8 +1,34 @@
-.jumbotron {
-    padding: 200px 0;
-    background-image: url('../images/jumbotron.jpg');
-}
+main {
+    color: white;
 
-.container-comics {
-    background-color: black;
+    .jumbotron {
+        padding: 200px 0;
+        background-image: url('../images/jumbotron.jpg');
+    }
+
+    .container-comics {
+        background-color: black;
+
+        .card {
+            width: 183px;
+            margin-bottom: 40px;
+
+            .thumb {
+                width: 175px;
+                height: 175px;
+                margin: 0 auto;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                    object-position: top;
+                }
+            }
+
+            .series {
+                padding: 20px 0;
+            }
+        }
+    }
 }
