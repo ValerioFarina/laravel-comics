@@ -86,7 +86,9 @@
                             </h5>
                         </div>
                         <div class="col float-left">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            @foreach ($single_comics['writers'] as $writer)
+                                <a href="#">{{ $writer }}</a>{{ $loop->last ? '' : ',' }}
+                            @endforeach
                         </div>
                     </div>
                 </div>
