@@ -8,7 +8,11 @@
 
         </div>
         <div class="bottom">
-
+            <div class="small-container">
+                <div class="thumb">
+                    <img src="{{ $single_comics['thumb'] }}" alt="">
+                </div>
+            </div>
         </div>
     </section>
 @endsection
