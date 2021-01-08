@@ -14,7 +14,7 @@
                     <span class="comics-type upper-case">
                         {{ $single_comics['type'] }}
                     </span>
-                    <span class="cta upper-case">
+                    <span class="gallery upper-case">
                         view gallery
                     </span>
                 </div>
@@ -131,6 +131,41 @@
                     </div>
                 </div>
             </div>
+        </div>
+    </section>
+
+    <section id="cta">
+        <div class="small-container">
+            <ul class="actions clearfix">
+                <li class="action float-left d-flex justify-content-between">
+                    <span class="name upper-case">
+                        digital comics
+                    </span>
+                    <div class="icon">
+                    </div>
+                </li>
+                <li class="action float-left d-flex justify-content-between">
+                    <span class="name upper-case">
+                        digital comics
+                    </span>
+                    <div class="icon">
+                    </div>
+                </li>
+                <li class="action float-left d-flex justify-content-between">
+                    <span class="name upper-case">
+                        digital comics
+                    </span>
+                    <div class="icon">
+                    </div>
+                </li>
+                <li class="action float-left d-flex justify-content-between">
+                    <span class="name upper-case">
+                        digital comics
+                    </span>
+                    <div class="icon">
+                    </div>
+                </li>
+            </ul>
         </div>
     </section>
 @endsection
