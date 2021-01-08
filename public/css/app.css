@@ -91,14 +91,12 @@ header #header-bottom .search a {
   transform: translateX(-100%);
 }
 
-main {
-  color: white;
-}
 main #jumbotron {
   padding: 200px 0;
   background-image: url("../images/jumbotron.jpg");
 }
 main #container-comics {
+  color: white;
   background-color: black;
 }
 main #container-comics h1 span {
@@ -111,12 +109,15 @@ main #container-comics .card {
   width: 183px;
   margin-bottom: 30px;
 }
-main #container-comics .card .thumb {
+main #container-comics .card a {
+  color: white;
+}
+main #container-comics .card a .thumb {
   width: 175px;
   height: 175px;
   margin: 0 auto;
 }
-main #container-comics .card .thumb img {
+main #container-comics .card a .thumb img {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
@@ -124,7 +125,7 @@ main #container-comics .card .thumb img {
   -o-object-position: top;
      object-position: top;
 }
-main #container-comics .card .series {
+main #container-comics .card a .series {
   padding: 20px 0;
 }
 main #container-comics .cta {
@@ -141,6 +142,7 @@ main #container-comics .cta button {
 }
 main #buy-comics {
   padding: 50px 0;
+  color: white;
   background-color: #0282f9;
 }
 main #buy-comics ul {

@@ -21,7 +21,9 @@
         <div class="container">
             <div class="d-flex justify-content-between">
                 <div class="logo">
-                    <img src="{{ asset('images/dc-logo.png') }}" alt="DC Comics Logo">
+                    <a href="{{ route('homepage') }}">
+                        <img src="{{ asset('images/dc-logo.png') }}" alt="DC Comics Logo">
+                    </a>
                 </div>
 
                 <div class="menu">

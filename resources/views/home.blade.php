@@ -16,17 +16,19 @@
             </h1>
 
             <div class="d-flex wrap justify-content-evenly">
-                @foreach ($comic_series as $item)
+                @foreach ($comic_series as $index => $item)
                     <div class="card">
-                        <div class="thumb">
-                            <img src="{{ $item['thumb'] }}" alt="{{ $item['series'] }}">
-                        </div>
+                        <a href="{{ route('comics-details', ['id' => $index]) }}">
+                            <div class="thumb">
+                                <img src="{{ $item['thumb'] }}" alt="{{ $item['series'] }}">
+                            </div>
 
-                        <div class="series upper-case">
-                            <span>
-                                {{ $item['series'] }}
-                            </span>
-                        </div>
+                            <div class="series upper-case">
+                                <span>
+                                    {{ $item['series'] }}
+                                </span>
+                            </div>
+                        </a>
                     </div>
                 @endforeach
             </div>

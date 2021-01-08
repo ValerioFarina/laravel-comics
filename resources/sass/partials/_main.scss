@@ -1,12 +1,11 @@
 main {
-    color: $brand-secondary;
-
     #jumbotron {
         padding: 200px 0;
         background-image: url('../images/jumbotron.jpg');
     }
 
     #container-comics {
+        color: $brand-secondary;
         background-color: black;
 
         h1 {
@@ -22,21 +21,25 @@ main {
             width: 183px;
             margin-bottom: 30px;
 
-            .thumb {
-                width: 175px;
-                height: 175px;
-                margin: 0 auto;
+            a {
+                color: $brand-secondary;
 
-                img {
-                    width: 100%;
-                    height: 100%;
-                    object-fit: cover;
-                    object-position: top;
+                .thumb {
+                    width: 175px;
+                    height: 175px;
+                    margin: 0 auto;
+
+                    img {
+                        width: 100%;
+                        height: 100%;
+                        object-fit: cover;
+                        object-position: top;
+                    }
                 }
-            }
 
-            .series {
-                padding: 20px 0;
+                .series {
+                    padding: 20px 0;
+                }
             }
         }
 
@@ -57,6 +60,7 @@ main {
 
     #buy-comics {
         padding: 50px 0;
+        color: $brand-secondary;
         background-color: $brand-primary;
 
         ul {
