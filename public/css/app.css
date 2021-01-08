@@ -263,6 +263,30 @@ main #cta .actions .action {
   padding: 15px;
   border-right: 1px solid grey;
 }
+main #cta .actions .action:nth-child(1) .icon {
+  background-position: 0px 0;
+}
+main #cta .actions .action:nth-child(1):hover .icon {
+  background-position: 0px 37px;
+}
+main #cta .actions .action:nth-child(2) .icon {
+  background-position: 37px 0;
+}
+main #cta .actions .action:nth-child(2):hover .icon {
+  background-position: 37px 37px;
+}
+main #cta .actions .action:nth-child(3) .icon {
+  background-position: 74px 0;
+}
+main #cta .actions .action:nth-child(3):hover .icon {
+  background-position: 74px 37px;
+}
+main #cta .actions .action:nth-child(4) .icon {
+  background-position: 111px 0;
+}
+main #cta .actions .action:nth-child(4):hover .icon {
+  background-position: 111px 37px;
+}
 main #cta .actions .action .icon {
   width: 37px;
   height: 37px;

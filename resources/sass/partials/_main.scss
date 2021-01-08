@@ -203,10 +203,22 @@ main {
                 padding: 15px;
                 border-right: 1px solid grey;
 
+                @for $i from 0 through 3 {
+                    &:nth-child(#{$i+1}) {
+                        .icon {
+                            background-position: #{$i*37}px 0;
+                        }
+
+                        &:hover .icon {
+                            background-position: #{$i*37}px 37px;
+                        }
+                    }
+                }
+
                 .icon {
                     width: 37px;
                     height: 37px;
-                    background-image: url('/images/cta-icons.png')
+                    background-image: url('/images/cta-icons.png');
                 }
             }
         }
