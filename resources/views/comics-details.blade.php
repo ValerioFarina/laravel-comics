@@ -38,6 +38,9 @@
                             </span>
                         </div>
                     </div>
+                    <p class="description">
+                        {{ $single_comics['description'] }}
+                    </p>
                 </div>
                 <div class="adv float-left">
 
