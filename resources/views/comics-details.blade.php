@@ -43,7 +43,12 @@
                     </p>
                 </div>
                 <div class="adv float-left">
-
+                    <h5 class="upper-case">
+                        advertisement
+                    </h5>
+                    <div class="adv-img">
+                        <img src="{{ asset('images/adv.jpg') }}" alt="">
+                    </div>
                 </div>
             </div>
         </div>

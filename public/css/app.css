@@ -206,4 +206,5 @@ main #comics-info .top .info .sales-info .left, main #comics-info .top .info .sa
 }
 main #comics-info .top .adv {
   width: 35%;
+  text-align: right;
 }
