@@ -23,7 +23,31 @@ main {
                     .thumb {
                         position: absolute;
                         left: 0;
-                        bottom: 10px;
+                        bottom: 15px;
+                        border: 1px solid $brand-secondary;
+                        color: $brand-secondary;
+
+                        img {
+                            display: block;
+                        }
+
+                        span {
+                            position: absolute;
+                            display: block;
+                            background-color: #00a9d9;
+                            text-align: center;
+
+                            &.comics-type {
+                                top: 0;
+                                left: 0;
+                            }
+
+                            &.cta {
+                                bottom: 0;
+                                left: 0;
+                                width: 100%;
+                            }
+                        }
                     }
                 }
             }
@@ -131,6 +155,38 @@ main {
             .adv {
                 width: 35%;
                 text-align: right;
+            }
+        }
+
+        .bottom {
+            padding: 20px 0 100px 0;
+            background-color: #f6f6f6;
+
+            .row {
+                padding: 10px 0;
+                border-bottom: 1px solid grey;
+
+                h3 {
+                    margin-bottom: 20px;
+                }
+
+                .col {
+                    &:first-child {
+                        width: 30%;
+                    }
+
+                    &:last-child {
+                        width: 70%;
+                    }
+                }
+            }
+
+            .talent {
+                margin-right: 50px;
+            }
+
+            .talent, .specs {
+                width: calc(50% - 25px);
             }
         }
     }
