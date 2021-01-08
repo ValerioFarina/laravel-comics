@@ -75,9 +75,7 @@
                         </div>
                         <div class="col float-left">
                             @foreach ($single_comics['artists'] as $artist)
-                                <a href="#">
-                                    {{ $artist }}
-                                </a>
+                                <a href="#">{{ $artist }}</a>{{ $loop->last ? '' : ',' }}
                             @endforeach
                         </div>
                     </div>
