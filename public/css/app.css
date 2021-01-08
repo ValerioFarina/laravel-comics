@@ -29,6 +29,9 @@ a {
 .d-flex.justify-content-evenly {
   justify-content: space-evenly;
 }
+.d-flex.align-center {
+  align-items: center;
+}
 
 .upper-case {
   text-transform: uppercase;
@@ -57,13 +60,10 @@ header #header-bottom .logo {
 header #header-bottom .logo img {
   height: 80px;
 }
-header #header-bottom ul {
-  height: 124px;
-}
 header #header-bottom ul li {
-  height: 100%;
+  height: 124px;
   line-height: 124px;
-  margin: 0 20px;
+  margin: 0 15px;
 }
 header #header-bottom ul li:hover {
   border-bottom: 5px solid #0282f9;
@@ -77,6 +77,18 @@ header #header-bottom ul li:last-child a span {
 header #header-bottom ul li a {
   color: black;
   font-weight: 700;
+}
+header #header-bottom .search input {
+  padding-right: 20px;
+  border: 0;
+  border-bottom: 3px solid #0282f9;
+  text-align: right;
+  font-weight: 700;
+}
+header #header-bottom .search a {
+  display: inline-block;
+  width: 15px;
+  transform: translateX(-100%);
 }
 
 main {
@@ -121,7 +133,9 @@ main .container-comics .cta {
 }
 main .container-comics .cta button {
   padding: 8px 50px;
+  border-radius: 2px;
+  border: 0;
+  font-weight: 700;
   color: white;
   background-color: #0282f9;
-  font-weight: 700;
 }

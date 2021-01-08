@@ -26,7 +26,7 @@
 
                 <div class="menu">
                     <ul>
-                        <li>
+                        <li >
                             <a href="#" class="upper-case">
                                 characters
                             </a>
@@ -89,8 +89,11 @@
                     </ul>
                 </div>
 
-                <div class="search">
-
+                <div class="search d-flex align-center">
+                    <input placeholder="Search">
+                    <a href="#">
+                        <i class="fas fa-search"></i>
+                    </a>
                 </div>
             </div>
         </div>

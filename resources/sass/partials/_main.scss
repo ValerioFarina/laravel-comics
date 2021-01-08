@@ -1,5 +1,5 @@
 main {
-    color: white;
+    color: $brand-secondary;
 
     .jumbotron {
         padding: 200px 0;
@@ -46,9 +46,11 @@ main {
 
             button {
                 padding: 8px 50px;
-                color: white;
-                background-color: $brand-primary;
+                border-radius: 2px;
+                border: 0;
                 font-weight: 700;
+                color: $brand-secondary;
+                background-color: $brand-primary;
             }
         }
     }

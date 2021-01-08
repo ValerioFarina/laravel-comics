@@ -17,7 +17,7 @@ header {
                 }
 
                 a {
-                    color: white;
+                    color: $brand-secondary;
                 }
             }
         }
@@ -33,12 +33,10 @@ header {
         }
 
         ul {
-            height: 124px;
-
             li {
-                height: 100%;
+                height: 124px;
                 line-height: 124px;
-                margin: 0 20px;
+                margin: 0 15px;
 
                 &:hover {
                     border-bottom: 5px solid $brand-primary;
@@ -56,6 +54,22 @@ header {
                     color: black;
                     font-weight: 700;
                 }
+            }
+        }
+
+        .search {
+            input {
+                padding-right: 20px;
+                border: 0;
+                border-bottom: 3px solid $brand-primary;
+                text-align: right;
+                font-weight: 700;
+            }
+
+            a {
+                display: inline-block;
+                width: 15px;
+                transform: translateX(-100%);
             }
         }
     }
