@@ -105,8 +105,8 @@
                                 Series:
                             </h5>
                         </div>
-                        <div class="col float-left">
-                            -------
+                        <div class="col float-left upper-case">
+                            {{ $single_comics['series'] }}
                         </div>
                     </div>
                     <div class="row clearfix">
@@ -116,7 +116,7 @@
                             </h5>
                         </div>
                         <div class="col float-left">
-                            -------
+                            {{ $single_comics['price'] }}
                         </div>
                     </div>
                     <div class="row clearfix">
@@ -126,7 +126,7 @@
                             </h5>
                         </div>
                         <div class="col float-left">
-                            -------
+                            {{ $single_comics['sale_date'] }}
                         </div>
                     </div>
                 </div>
