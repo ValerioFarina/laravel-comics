@@ -3,11 +3,11 @@
 @section('page-title', 'Homepage')
 
 @section('content')
-    <div class="jumbotron">
+    <section id="jumbotron">
 
-    </div>
+    </section>
 
-    <div class="container-comics">
+    <section id="container-comics">
         <div class="container">
             <h1>
                 <span class="upper-case">
@@ -37,5 +37,46 @@
                 </button>
             </div>
         </div>
-    </div>
+    </section>
+
+    <section id="buy-comics">
+        <div class="container">
+            <ul class="d-flex justify-content-evenly">
+                <li class="d-flex align-center">
+                    <img src="{{ asset('images/buy-comics-digital-comics.png') }}">
+                    <span class="upper-case">
+                        digital comics
+                    </span>
+                </li>
+
+                <li class="d-flex align-center">
+                    <img src="{{ asset('images/buy-comics-merchandise.png') }}">
+                    <span class="upper-case">
+                        DC merchandise
+                    </span>
+                </li>
+
+                <li class="d-flex align-center">
+                    <img src="{{ asset('images/buy-comics-subscriptions.png') }}">
+                    <span class="upper-case">
+                        subscription
+                    </span>
+                </li>
+
+                <li class="d-flex align-center">
+                    <img src="{{ asset('images/buy-comics-shop-locator.png') }}">
+                    <span class="upper-case">
+                        comic shop locator
+                    </span>
+                </li>
+
+                <li class="d-flex align-center">
+                    <img src="{{ asset('images/buy-dc-power-visa.svg') }}">
+                    <span class="upper-case">
+                        DC power visa
+                    </span>
+                </li>
+            </ul>
+        </div>
+    </section>
 @endsection
