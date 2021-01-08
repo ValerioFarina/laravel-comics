@@ -1,7 +1,23 @@
 main {
-    #jumbotron {
-        padding: 200px 0;
-        background-image: url('../images/jumbotron.jpg');
+    .jumbotron {
+        &.home {
+            background-image: url('../images/jumbotron.jpg');
+            background-size: cover;
+            padding: 200px 0;
+        }
+
+        &.comics-details {
+            .top {
+                background-image: url('../images/jumbotron.jpg');
+                background-size: cover;
+                padding: 200px 0;
+            }
+
+            .bottom {
+                background-color: $brand-primary;
+                padding: 30px;
+            }
+        }
     }
 
     #container-comics {

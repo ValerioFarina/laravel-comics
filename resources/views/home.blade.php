@@ -3,7 +3,7 @@
 @section('page-title', 'Homepage')
 
 @section('content')
-    <section id="jumbotron">
+    <section class="jumbotron home">
 
     </section>
 

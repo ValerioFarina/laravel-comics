@@ -3,5 +3,12 @@
 @section('page-title', 'Comics details')
 
 @section('content')
-    <h1>{{ $single_comics['title'] }}</h1>
+    <section class="jumbotron comics-details">
+        <div class="top">
+
+        </div>
+        <div class="bottom">
+
+        </div>
+    </section>
 @endsection

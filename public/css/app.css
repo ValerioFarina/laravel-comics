@@ -91,9 +91,19 @@ header #header-bottom .search a {
   transform: translateX(-100%);
 }
 
-main #jumbotron {
-  padding: 200px 0;
+main .jumbotron.home {
   background-image: url("../images/jumbotron.jpg");
+  background-size: cover;
+  padding: 200px 0;
+}
+main .jumbotron.comics-details .top {
+  background-image: url("../images/jumbotron.jpg");
+  background-size: cover;
+  padding: 200px 0;
+}
+main .jumbotron.comics-details .bottom {
+  background-color: #0282f9;
+  padding: 30px;
 }
 main #container-comics {
   color: white;
