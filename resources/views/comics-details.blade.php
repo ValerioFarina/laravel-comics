@@ -126,7 +126,7 @@
                             </h5>
                         </div>
                         <div class="col float-left">
-                            {{ $single_comics['sale_date'] }}
+                            {{ DateTime::createFromFormat( 'Y-m-d' ,$single_comics['sale_date'])->format('M d Y') }}
                         </div>
                     </div>
                 </div>
