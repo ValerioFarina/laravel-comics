@@ -22,6 +22,16 @@ a {
   margin: 0 auto;
 }
 
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.float-left {
+  float: left;
+}
+
 .d-flex {
   display: flex;
 }
@@ -177,4 +187,23 @@ main #buy-comics ul li img {
 }
 main #buy-comics ul li:last-child img {
   height: 40px;
+}
+main #comics-info .top {
+  padding: 50px;
+}
+main #comics-info .top .info {
+  width: 65%;
+}
+main #comics-info .top .info .sales-info {
+  background-color: #55ba59;
+}
+main #comics-info .top .info .sales-info .left {
+  flex-grow: 1;
+  border-right: 1px solid black;
+}
+main #comics-info .top .info .sales-info .left, main #comics-info .top .info .sales-info .right {
+  padding: 20px;
+}
+main #comics-info .top .adv {
+  width: 35%;
 }

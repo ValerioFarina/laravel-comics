@@ -106,4 +106,31 @@ main {
             }
         }
     }
+
+    #comics-info {
+        .top {
+            padding: 50px;
+
+            .info {
+                width: 65%;
+
+                .sales-info {
+                    background-color: #55ba59;
+
+                    .left {
+                        flex-grow: 1;
+                        border-right: 1px solid black;
+                    }
+
+                    .left, .right {
+                        padding: 20px;
+                    }
+                }
+            }
+
+            .adv {
+                width: 35%;
+            }
+        }
+    }
 }
