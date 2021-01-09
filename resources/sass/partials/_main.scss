@@ -195,16 +195,6 @@ main {
                 }
             }
 
-            .talent {
-                margin-right: 50px;
-            }
-
-            .specs {
-                .series {
-                    color: $brand-primary;
-                }
-            }
-
             .talent, .specs {
                 width: calc(50% - 25px);
                 font-weight: 600;
@@ -215,6 +205,16 @@ main {
                 }
 
                 a {
+                    color: $brand-primary;
+                }
+            }
+
+            .talent {
+                margin-right: 50px;
+            }
+
+            .specs {
+                .series {
                     color: $brand-primary;
                 }
             }

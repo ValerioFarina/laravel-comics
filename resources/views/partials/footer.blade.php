@@ -157,7 +157,7 @@
             </div>
 
             <p class="copyright">
-                All Site Content TM and © 2020 DC Entertainment, unless otherwise noted here. All rights reserved. Cookies Settings
+                All Site Content TM and © 2020 DC Entertainment, unless otherwise <a href="#">noted here</a>. All rights reserved. <a href="#">Cookies Settings</a>
             </p>
         </div>
     </div>

@@ -262,12 +262,6 @@ main #comics-info .bottom .row .col:first-child {
 main #comics-info .bottom .row .col:last-child {
   width: 70%;
 }
-main #comics-info .bottom .talent {
-  margin-right: 50px;
-}
-main #comics-info .bottom .specs .series {
-  color: #0282f9;
-}
 main #comics-info .bottom .talent, main #comics-info .bottom .specs {
   width: calc(50% - 25px);
   font-weight: 600;
@@ -277,6 +271,12 @@ main #comics-info .bottom .talent h5, main #comics-info .bottom .specs h5 {
   color: #003f5e;
 }
 main #comics-info .bottom .talent a, main #comics-info .bottom .specs a {
+  color: #0282f9;
+}
+main #comics-info .bottom .talent {
+  margin-right: 50px;
+}
+main #comics-info .bottom .specs .series {
   color: #0282f9;
 }
 main #cta {
@@ -358,6 +358,8 @@ footer {
 #footer-top .container .copyright {
   width: 50%;
   padding-bottom: 40px;
+  font-size: 14px;
+  color: grey;
 }
 
 #footer-bottom {
