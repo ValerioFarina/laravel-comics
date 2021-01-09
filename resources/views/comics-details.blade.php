@@ -106,7 +106,9 @@
                             </h5>
                         </div>
                         <div class="col float-left upper-case">
-                            {{ $single_comics['series'] }}
+                            <span class="series">
+                                {{ $single_comics['series'] }}
+                            </span>
                         </div>
                     </div>
                     <div class="row clearfix">

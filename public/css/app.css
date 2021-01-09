@@ -250,7 +250,7 @@ main #comics-info .bottom {
 }
 main #comics-info .bottom .row {
   padding: 10px 0;
-  border-bottom: 1px solid grey;
+  border-bottom: 1px solid #ced2c9;
 }
 main #comics-info .bottom .row h3 {
   margin-bottom: 20px;
@@ -265,23 +265,32 @@ main #comics-info .bottom .row .col:last-child {
 main #comics-info .bottom .talent {
   margin-right: 50px;
 }
+main #comics-info .bottom .specs .series {
+  color: #0282f9;
+}
 main #comics-info .bottom .talent, main #comics-info .bottom .specs {
   width: calc(50% - 25px);
+  font-weight: 600;
+  color: #958e87;
 }
 main #comics-info .bottom .talent h5, main #comics-info .bottom .specs h5 {
   color: #003f5e;
 }
+main #comics-info .bottom .talent a, main #comics-info .bottom .specs a {
+  color: #0282f9;
+}
 main #cta {
   background-color: #f6f6f6;
-  border-top: 1px solid grey;
+  border-top: 1px solid #ced2c9;
 }
 main #cta .actions {
-  border-left: 1px solid grey;
+  border-left: 1px solid #ced2c9;
 }
 main #cta .actions .action {
   width: 25%;
   padding: 15px;
-  border-right: 1px solid grey;
+  border-right: 1px solid #ced2c9;
+  color: #958e87;
 }
 main #cta .actions .action:nth-child(1) .icon {
   background-position: 0px 0;
