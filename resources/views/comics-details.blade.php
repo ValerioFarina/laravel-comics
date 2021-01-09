@@ -40,7 +40,7 @@
                         </div>
                         <div class="right">
                             <span>
-                                Check Availability
+                                Check Availability ▼
                             </span>
                         </div>
                     </div>
