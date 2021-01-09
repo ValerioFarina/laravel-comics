@@ -335,3 +335,51 @@ footer {
   width: 50%;
   padding-bottom: 40px;
 }
+
+#footer-bottom {
+  padding: 30px 0;
+  background-color: #303030;
+}
+#footer-bottom .social-icons li {
+  display: inline-block;
+}
+#footer-bottom .social-icons li .facebook {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  background-image: url("../images/footer-facebook.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+#footer-bottom .social-icons li .twitter {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  background-image: url("../images/footer-twitter.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+#footer-bottom .social-icons li .youtube {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  background-image: url("../images/footer-youtube.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+#footer-bottom .social-icons li .pinterest {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  background-image: url("../images/footer-pinterest.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+#footer-bottom .social-icons li .periscope {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  background-image: url("../images/footer-periscope.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}

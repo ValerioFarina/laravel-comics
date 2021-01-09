@@ -164,7 +164,43 @@
 
     <div id="footer-bottom">
         <div class="container">
+            <div class="d-flex justify-content-between">
+                <div class="sign-up-btn">
+                    <button class="upper-case">
+                        sign-up now!
+                    </button>
+                </div>
+                <div class="social-icons d-flex align-center">
+                    <h3 class="upper-case">follow us</h3>
+                    <ul>
+                        <li>
+                            <a href="#" class="facebook">
 
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="twitter">
+
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="youtube">
+
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="pinterest">
+
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="periscope">
+
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </div>
 </footer>
