@@ -4,41 +4,41 @@
             <div id="footer-menus" class="clearfix">
                 <div class="col float-left">
                     <div class="menu">
-                        <h3 class="upper-case">Title</h3>
+                        <h3 class="upper-case">DC comics</h3>
                         <ul>
                             <li>
                                 <a href="#">
-                                    Link
+                                    Characters
                                 </a>
                             </li>
                             <li>
                                 <a href="#">
-                                    Link
+                                    Comics
                                 </a>
                             </li>
                             <li>
                                 <a href="#">
-                                    Link
+                                    Movies
                                 </a>
                             </li>
                             <li>
                                 <a href="#">
-                                    Link
+                                    TV
                                 </a>
                             </li>
                             <li>
                                 <a href="#">
-                                    Link
+                                    Games
                                 </a>
                             </li>
                             <li>
                                 <a href="#">
-                                    Link
+                                    Videos
                                 </a>
                             </li>
                             <li>
                                 <a href="#">
-                                    Link
+                                    News
                                 </a>
                             </li>
                         </ul>
@@ -49,12 +49,74 @@
                         <ul>
                             <li>
                                 <a href="#">
-                                    Link
+                                    Shop DC
                                 </a>
                             </li>
                             <li>
                                 <a href="#">
-                                    Link
+                                    Shop DC Collectibles
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col float-left">
+                    <div class="menu">
+                        <h3 class="upper-case">DC</h3>
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    Terms Of Use
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    Privacy Policy (New)
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    Ad Choices
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    Advertising
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    Jobs
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    Subscriptions
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    Talent Workshop
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    CPSC Certificates
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    Ratings
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    Shop Help
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    Contact Us
                                 </a>
                             </li>
                         </ul>
@@ -66,89 +128,27 @@
                         <ul>
                             <li>
                                 <a href="#">
-                                    Link
+                                    DC
                                 </a>
                             </li>
                             <li>
                                 <a href="#">
-                                    Link
+                                    MAD Magazine
                                 </a>
                             </li>
                             <li>
                                 <a href="#">
-                                    Link
+                                    DC Kids
                                 </a>
                             </li>
                             <li>
                                 <a href="#">
-                                    Link
+                                    DC Universe
                                 </a>
                             </li>
                             <li>
                                 <a href="#">
-                                    Link
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    Link
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    Link
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    Link
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    Link
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    Link
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    Link
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col float-left">
-                    <div class="menu">
-                        <h3 class="upper-case">Title</h3>
-                        <ul>
-                            <li>
-                                <a href="#">
-                                    Link
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    Link
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    Link
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    Link
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    Link
+                                    DC Power Visa
                                 </a>
                             </li>
                         </ul>
@@ -157,7 +157,7 @@
             </div>
 
             <p class="copyright">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                All Site Content TM and © 2020 DC Entertainment, unless otherwise noted here. All rights reserved. Cookies Settings
             </p>
         </div>
     </div>
