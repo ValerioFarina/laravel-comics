@@ -4,7 +4,7 @@
 
 @section('content')
     <section class="jumbotron comics-details">
-        <div class="top">
+        <div class="top {{ $single_comics["jumbotron_bg"] }}">
 
         </div>
         <div class="bottom">

@@ -117,9 +117,44 @@ main .jumbotron.home {
   padding: 200px 0;
 }
 main .jumbotron.comics-details .top {
-  background-image: url("../images/jumbotron.jpg");
   background-size: cover;
   padding: 200px 0;
+}
+main .jumbotron.comics-details .top.action-comics-deluxe {
+  background-image: url("../images/action-comics-deluxe-jumbotron.jpg");
+}
+main .jumbotron.comics-details .top.american-vampire {
+  background-image: url("../images/american-vampire-jumbotron.jpg");
+}
+main .jumbotron.comics-details .top.acquaman {
+  background-image: url("../images/acquaman-jumbotron.jpg");
+}
+main .jumbotron.comics-details .top.batgirl {
+  background-image: url("../images/batgirl-jumbotron.jpg");
+}
+main .jumbotron.comics-details .top.batman {
+  background-image: url("../images/batman-jumbotron.jpg");
+}
+main .jumbotron.comics-details .top.batman-beyond {
+  background-image: url("../images/batman-beyond-jumbotron.jpg");
+}
+main .jumbotron.comics-details .top.batman-superman {
+  background-image: url("../images/batman-superman-jumbotron.jpg");
+}
+main .jumbotron.comics-details .top.batman-superman-annual {
+  background-image: url("../images/batman-superman-annual-jumbotron.jpg");
+}
+main .jumbotron.comics-details .top.batman-joker-warzone {
+  background-image: url("../images/batman-joker-warzone-jumbotron.jpg");
+}
+main .jumbotron.comics-details .top.batman-joker-three-jokes {
+  background-image: url("../images/batman-joker-three-jokes-jumbotron.jpg");
+}
+main .jumbotron.comics-details .top.harley-quinn {
+  background-image: url("../images/harley-quinn-jumbotron.jpg");
+}
+main .jumbotron.comics-details .top.catwoman {
+  background-image: url("../images/catwoman-jumbotron.jpg");
 }
 main .jumbotron.comics-details .bottom {
   background-color: #0282f9;

@@ -37,6 +37,7 @@ return [
             "Jerry Siegel",
             "Paul Levitz"
         ],
+        "jumbotron_bg" => "action-comics-deluxe"
     ],
     [
         "title" => "American Vampire 1976 #1",
@@ -52,6 +53,7 @@ return [
         "writers" => [
             "Scott Snyder"
         ],
+        "jumbotron_bg" => "american-vampire"
     ],
     [
         "title" => "Aquaman Vol. 4: Underworld",
@@ -67,6 +69,7 @@ return [
         "writers" => [
             "Dan Abnett"
         ],
+        "jumbotron_bg" => "acquaman"
     ],
     [
         "title" => "Batgirl #1",
@@ -82,6 +85,7 @@ return [
         "writers" => [
             "Hope Larson"
         ],
+        "jumbotron_bg" => "batgirl"
     ],
     [
         "title" => "Batman #56",
@@ -97,6 +101,7 @@ return [
         "writers" => [
             "Tom King"
         ],
+        "jumbotron_bg" => "batman"
     ],
     [
         "title" => "Batman Beyond #1",
@@ -112,6 +117,7 @@ return [
         "writers" => [
             "Dan Jurgens"
         ],
+        "jumbotron_bg" => "batman-beyond"
     ],
     [
         "title" => "Batman/Superman #1",
@@ -127,6 +133,7 @@ return [
         "writers" => [
             "Joshua Williamson"
         ],
+        "jumbotron_bg" => "batman-superman"
     ],
     [
         "title" => "Batman/Superman Annual #1",
@@ -144,6 +151,7 @@ return [
         "writers" => [
             "Joshua Williamson"
         ],
+        "jumbotron_bg" => "batman-superman-annual"
     ],
     [
         "title" => "Batman: The Joker War Zone #1",
@@ -165,6 +173,7 @@ return [
             "Joshua Williamson",
             "John Ridley"
         ],
+        "jumbotron_bg" => "batman-joker-warzone"
     ],
     [
         "title" => "Batman: Three Jokers #1",
@@ -180,6 +189,7 @@ return [
         "writers" => [
             "Geoff Johns"
         ],
+        "jumbotron_bg" => "batman-joker-three-jokes"
     ],
     [
         "title" => "Batman: White Knight Presents: Harley Quinn #1",
@@ -195,6 +205,7 @@ return [
         "writers" => [
             "Katana Collins"
         ],
+        "jumbotron_bg" => "harley-quinn"
     ],
     [
         "title" => "Catwoman Vol. 1: Copycats",
@@ -211,5 +222,6 @@ return [
         "writers" => [
             "Joëlle Jones"
         ],
+        "jumbotron_bg" => "catwoman"
     ],
 ];

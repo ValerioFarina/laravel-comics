@@ -8,9 +8,14 @@ main {
 
         &.comics-details {
             .top {
-                background-image: url('../images/jumbotron.jpg');
                 background-size: cover;
                 padding: 200px 0;
+
+                @each $item in $jumbotron-bg {
+                    &.#{$item} {
+                        background-image: url('../images/#{$item}-jumbotron.jpg');
+                    }
+                }
             }
 
             .bottom {
