@@ -321,6 +321,10 @@ main #cta .actions .action .icon {
   height: 37px;
   background-image: url("/images/cta-icons.png");
 }
+main .error-message {
+  padding: 50px 0;
+  font-size: 40px;
+}
 
 footer {
   color: white;

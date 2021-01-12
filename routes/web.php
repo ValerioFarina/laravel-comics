@@ -23,9 +23,12 @@ Route::get('/', function () {
 
 Route::get('/comics/{id}', function ($id) {
     $comics = config('comics');
-    $single_comics = $comics[$id];
-    $data = [
-        'single_comics' => $single_comics
-    ];
-    return view('comics-details', $data);
+    if (array_key_exists($id, $comics)) {
+        $single_comics = $comics[$id];
+        $data = [
+            'single_comics' => $single_comics
+        ];
+        return view('comics-details', $data);
+    }
+    abort('404');
 })->name('comics-details');
